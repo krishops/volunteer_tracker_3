@@ -60,7 +60,9 @@ class Volunteer
     @name = name
     @project_id = project_id
     DB.exec("UPDATE volunteers SET name = '#{@name}', project_id = #{@project_id} WHERE id = #{@id};")
+  end
 
+  def delete
   end
 
 end
