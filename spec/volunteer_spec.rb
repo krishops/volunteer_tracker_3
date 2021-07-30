@@ -98,7 +98,4 @@ describe Volunteer do
       expect(volunteer.project).to eq project
     end
   end
-    
-
-
 end
