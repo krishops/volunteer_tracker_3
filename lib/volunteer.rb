@@ -56,6 +56,4 @@ class Volunteer
     volunteers
   end
 
-
-
 end
