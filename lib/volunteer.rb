@@ -56,4 +56,7 @@ class Volunteer
     volunteers
   end
 
+  def update(title, project_id)
+  end
+
 end

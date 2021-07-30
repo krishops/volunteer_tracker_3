@@ -67,5 +67,18 @@ describe Volunteer do
     end
   end
 
+  describe '#update' do
+    it 'allows a user to update a volunteer' do
+      project = Project.new({:title => 'Teaching Kids to Code', :id => nil})
+      project.save
+      volunteer = Volunteer.new({:name => 'Jane', :project_id => project.id, :id => nil})
+      volunteer.save
+      volunteer.update('Jill', project.id)
+      expect(volunteer.name).to eq 'Jill'
+    end
+  end
+
+
+
 
 end
