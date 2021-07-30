@@ -1,0 +1,36 @@
+body {
+  background: linear-gradient(144deg, rgb(247, 34, 69), rgb(221, 184, 21));
+  background-size:cover;
+  background-repeat:no-repeat;
+  background-position-y: bottom;
+  min-height: 100vh;
+}
+
+.container {
+  border-radius: 20px;
+  background-color: rgba(255,255,255,.85);
+  padding: 1rem;
+  margin:1rem auto;
+}
+
+.btn {
+  background-color: rgb(221, 184, 21);
+}
+
+a {
+  color: rgb(247, 34, 69);
+}
+
+.card-body {
+  border-radius: 20px;
+  background-color: white;
+  padding: 1rem;
+}
+
+.card {
+  margin-bottom: 15px;
+}
+
+ul {
+  font-size: large;
+}

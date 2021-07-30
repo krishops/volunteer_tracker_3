@@ -27,7 +27,7 @@ This app is also available at HEROKU.
 
 Within the root directory, run the command `docker-compose run --rm web bundle exec rspec` to run the rspec tests of the project.
 Testing should output:
-**21 examples, 0 failures**  
+**26 examples, 0 failures**  
 
 ## Known Bugs
 
